@@ -29,7 +29,7 @@ const Form = styled.form`
 `;
 function Login({ setAuthenticate }: any) {
 	const navigate = useNavigate();
-	const loginUser = (e) => {
+	const loginUser = (e: any) => {
 		e.preventDefault();
 		setAuthenticate(true);
 		navigate("/");
